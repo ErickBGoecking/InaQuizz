@@ -1,0 +1,32 @@
+{
+  "name": "ingame",
+  "version": "1.0.0",
+  "description": "Quiz Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErickBGoecking/InGame-TCC.git"
+  },
+  "keywords": [
+    "npmteste"
+  ],
+  "author": "Grupo TCC",
+  "dependencies": {
+    "express": "4.16.3",
+    "moment": "2.22.1",
+    "mongodb": "3.0.10",
+    "mongoose": "5.1.5",
+    "socket.io": "2.1.1"
+  },
+  "devDependencies": {
+    "expect": "^23.0.1"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErickBGoecking/InGame-TCC/issues"
+  },
+  "homepage": "https://github.com/ErickBGoecking/InGame-TCC#readme"
+}
