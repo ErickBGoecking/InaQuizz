@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\public",
+    "\\public\\create",
+    "\\public\\create\\quiz-creator",
+    "\\server"
   ],
+  "SelectedNode": "\\server\\server.js",
   "PreviewInSolutionExplorer": false
 }
