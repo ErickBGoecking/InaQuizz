@@ -4,23 +4,28 @@
     }
 
     30% {
-        background-color: #66bf39
+        background-color: #3979bf
     }
 
     60% {
-        background-color: #eb670f
+        background-color: #0f64eb
     }
 
     90% {
-        background-color: #f35
+        background-color: #34f
     }
 
     100% {
-        background-color: #864cbf
+        background-color: #34f
     }
 }
 
 body {
+    background-image: url(https://www.sitegratisgratis.com.br/wp-content/uploads/2017/03/wallpaper-azul-papel-de-parede-azul-fundo-12.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: 0px;
     -webkit-animation: bgcolor 20s infinite;
     animation: bgcolor 10s infinite;
     -webkit-animation-direction: alternate;

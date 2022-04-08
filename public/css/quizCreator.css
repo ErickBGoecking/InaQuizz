@@ -1,3 +1,15 @@
+body {
+    background-image: url(https://i2.wp.com/multarte.com.br/wp-content/uploads/2018/12/azul-claro10.png?fit=1920%2C1080&ssl=1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: 0px;
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
 #question-field{
     border-style: groove;
     border-width: 1px;

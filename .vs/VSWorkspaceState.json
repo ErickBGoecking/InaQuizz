@@ -4,7 +4,9 @@
     "\\public",
     "\\public\\create",
     "\\public\\create\\quiz-creator",
-    "\\server"
+    "\\public\\css",
+    "\\server",
+    "\\server\\utils"
   ],
   "SelectedNode": "\\server\\server.js",
   "PreviewInSolutionExplorer": false
