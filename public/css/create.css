@@ -49,9 +49,11 @@ body {
 #game-list{
     text-align: center;
 }
-#back{
+#back {
     color: white;
     text-align: center;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
 }
 #gameButton{
     font-size:80px;

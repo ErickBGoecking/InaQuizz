@@ -70,9 +70,11 @@ body {
     font-family: 'Raleway', sans-serif;
     color: white;
 }
-#host{
+#host {
     color: white;
     text-decoration: none;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
 }
 #host:hover{
     text-decoration:underline;
