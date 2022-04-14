@@ -1,9 +1,6 @@
 body {
-    background-image: url(https://s2.best-wallpaper.net/wallpaper/1920x1080/1706/Blue-abstract-background-curve_1920x1080.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-position-x: center;
-    background-position-y: 0px;
+    background-image: url(../imagens/fundo-inicio.jpg);
+    color: white;
 }
 
 #answer1{
