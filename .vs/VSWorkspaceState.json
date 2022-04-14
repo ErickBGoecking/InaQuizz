@@ -5,6 +5,9 @@
     "\\public\\create",
     "\\public\\create\\quiz-creator",
     "\\public\\css",
+    "\\public\\host",
+    "\\public\\host\\game",
+    "\\public\\js",
     "\\server",
     "\\server\\utils"
   ],

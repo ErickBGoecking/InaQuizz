@@ -24,12 +24,12 @@ socket.on('gameQuestions', function(data){
     document.getElementById('answer3').innerHTML = data.a3;
     document.getElementById('answer4').innerHTML = data.a4;
     var correctAnswer = data.correct;
-    document.getElementById('playersAnswered').innerHTML = "Players Answered 0 / " + data.playersInGame;
+    document.getElementById('playersAnswered').innerHTML = "Jogadores que responderam 0 / " + data.playersInGame;
     updateTimer();
 });
 
 socket.on('updatePlayersAnswered', function(data){
-   document.getElementById('playersAnswered').innerHTML = "Players Answered " + data.playersAnswered + " / " + data.playersInGame; 
+    document.getElementById('playersAnswered').innerHTML = "Jogadores que responderam " + data.playersAnswered + " / " + data.playersInGame;
 });
 
 socket.on('questionOver', function(playerData, correct){
