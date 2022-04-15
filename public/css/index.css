@@ -95,3 +95,14 @@ body {
     background-color: #3A3B3A;
     font-family: 'Raleway', sans-serif;
 }
+
+#box {
+    /*definimos a largura do box*/
+    width: 300px;
+    /* definimos a altura do box */
+    height: 100px;
+    /* definimos a cor de fundo do box */
+    background-color: #6495ed;
+    /* definimos o quão arredondado irá ficar nosso box */
+    border-radius: 10px 20px 30px 40px;
+}
