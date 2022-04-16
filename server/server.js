@@ -20,7 +20,7 @@ var players = new Players();
 //Mongodb setup
 var MongoClient = require('mongodb').MongoClient;
 var mongoose = require('mongoose');
-var url = "mongodb://localhost:27017/";
+var url = "mongodb+srv://root:root@cluster0.7oqtx.mongodb.net/Cluster0?retryWrites=true&w=majority";
 
 app.use(express.static(publicPath));
 

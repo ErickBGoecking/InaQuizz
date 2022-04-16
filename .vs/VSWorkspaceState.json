@@ -3,11 +3,8 @@
     "",
     "\\public",
     "\\public\\create",
-    "\\public\\create\\quiz-creator",
     "\\public\\css",
-    "\\public\\host",
-    "\\public\\host\\game",
-    "\\public\\Imagens",
+    "\\public\\player",
     "\\server",
     "\\server\\utils"
   ],
