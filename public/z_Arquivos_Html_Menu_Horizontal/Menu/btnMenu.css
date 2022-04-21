@@ -1,0 +1,21 @@
+.btnMenu {
+    display: block;
+    background-repeat: no-repeat;
+    text-indent: -9999px; /*Tira i texto 'MENU' da frente*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+}
+
+.btnMenu_open {
+
+    background-image: url(iconBranco.svg);
+    background-color: #0000ff ;
+    background-position: 15px center;
+}
+
+.btnMenu_close{
+    background-color: #0000ff  ;
+    background-image: url(iconBranco.svg);
+    background-position: 15px center;
+}
