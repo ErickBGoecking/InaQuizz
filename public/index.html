@@ -1,34 +1,106 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Join | Inatel Quiz</title>
-    <link rel="stylesheet" href="css/index.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<link href="css/css/style.css" rel="stylesheet">
+<link href="css/css/bootstrap.css" rel="stylesheet">
+<link href="css/css/login.css" rel="stylesheet">
+
 </head>
 <body>
-    <br /><br />
-    <center>
-        <img src="https://inatel.br/custom/template2019/images/menuAncora/logo-inatel.webp" alt="some text" aligh="middle" />
-    </center>
-    <br /><br />
 
-    <form action="/player/">
-        <div class="form-field">
-            <label id="label">Nome Aluno</label>
-            <input id="name" type="text" name="name" autofocus />
+<nav class="css-tab css-tab--active">
+  <ul class="css-tab__list">
+    <li class="css-tab__item">
+      <a href="" class="css-tab__link">
+        <div class="css-tab__thumb color1" data-letter="S"></div>
+        <p class="css-tab__label">SOBRE</p>
+      </a>
+    </li>
+    <li class="css-tab__item">
+      <a href="" class="css-tab__link">
+        <div class="css-tab__thumb color3" data-letter="P"></div>
+        <p class="css-tab__label">ÁREA DO PROFESSOR</p>
+      </a>
+    </li>
+    <li class="css-tab__item">
+      <a href="" class="css-tab__link">
+        <div class="css-tab__thumb color4" data-letter="I"></div>
+        <p class="css-tab__label">INAQUIZZ</p>
+      </a>
+    </li>
+    <li class="css-tab__item">
+      <a href="" class="css-tab__link">
+        <div class="css-tab__thumb color5" data-letter="A"></div>
+        <p class="css-tab__label">ÁREA DO ALUNO</p>
+      </a>
+    </li>
+    <li class="css-tab__item">
+      <a href="" class="css-tab__link">
+        <div class="css-tab__thumb color6" data-letter="C"> </div>
+        <p class="css-tab__label">CONTATO</p>
+      </a>
+    </li>
+</nav>
+
+<div class="tab-content">
+  <section class="section color1" data-letter="a" >
+    <article class="section__wrapper">
+      <h1 class="section__title">SOBRE</h1>
+      <p>Com a chegada do COVID-19, a busca por adaptações e aplicações por alunos e professores no ensino didático aumentou consideravelmente em diversas regiões do país. Houve adaptações em aplicações de provas e atividades, sendo necessários a utilização de aplicações de questionários online. Estudos mostram que a utilização de quizzes nas atividades acadêmicas faz com que haja maior interação do aluno, ajudando a aumentar o nível de interesse e concentração nas atividades, fazendo com que aprenda a matéria e as questões apresentadas, além de aproximar professor e o estudante.</p>
+    </article>
+  </section>
+
+  <section class="section color3" data-letter="q">
+    <article class="section__wrapper">
+      <h1 class="section__title">PROFESSOR</h1>
+      <p>Você é professor? Clique no botão abaixo.</p>
+      <a href="professor.html" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">Acessar</a>
+    </article>
+  </section>
+
+  <section class="section section--active  color4" data-letter="e">
+    <article class="section__wrapper">
+      <h1 class="section__title">INAQUIZZ</h1>
+      <p>Plataforma colaborativa, onde os professores podem cadastrar e publicar suas questões de suas respectivas disciplinas para que os alunos possam pesquisar a disciplina específica e realizar seu estudo ou atividade, tornando-as mais dinâmicas, retendo uma maior quantidade de conteúdo dado</p>
+      <a href="indexORIGINAL.html " class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Acessar</a>
+    </article>
+  </section>
+
+  <section class="section color5" data-letter="s">
+    <article class="section__wrapper">
+      <h1 class="section__title">ALUNO</h1>
+      <p>Você é Aluno? Clique no botão abaixo.</p>
+      <a href="aluno.html" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Acessar</a>
+
+    </article>
+  </section>
+  <section class="section color6">
+    <article class="section__wrapper">
+      <h1 class="section__title">CONTATO</h1>
+      <p>TESTE</p>
+    </article>
+  </section>
+</div>
+
+<div class="footer-area-bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="copyright text-center">
+          <p>
+            &copy; Copyright 2022 <strong>INAQUIZZ</strong>. <br>All Rights Reserved
+          </p>
         </div>
-        <br>
-        <div class="form-field">
-            <label id="label">Pin da sala</label>
-            <input id="pin" type="number" name="pin" />
-        </div>
-        <br>
-        <div class="form-field">
-            <button id="joinButton">Entrar</button>
-        </div>
-    </form>
-    <br />
-    <center><a href="/create/" id="host">Clica aqui professor!</a></center>
+      </div>
+    </div>
+  </div>
+</div>
+</footer><!-- End  Footer -->
+
+<script type="" src="css/css/index.js"></script>
+
 </body>
 </html>
+
