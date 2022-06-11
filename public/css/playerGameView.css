@@ -1,28 +1,50 @@
-html, body { height: 90%; padding: 0; margin: 0; }
+html, body { 
+    background-color: #000000;
+    height: 90%; 
+    padding: 0; 
+    margin: 0; 
+}
+
 button{
-    width: 50%; height: 50%; float: left;
+    width: 50%; 
+    height: 50%; 
+    float: left;
 }
 #answer1{
-    background-color: #4CAF50;
+    background-color: #1bc885;
+    border: #000000;
+    border-style: solid;
+    border-width: 10px;
 }
 #answer2{
-    background-color: #f94a1e;
+    background-color: #e74c3c;
+    border: #000000;
+    border-style: solid;
+    border-width: 10px;
 }
 #answer3{
-    background-color: #3399ff;
+    background-color: #3498db;
+    border: #000000;
+    border-style: solid;
+    border-width: 10px;
 }
 #answer4{
-    background-color: #ff9933;
+    background-color: #dfb816;
+    border: #000000;
+    border-style: solid;
+    border-width: 10px;
 }
 
 #buttons{
     text-align: center;
 }
 #nameText{
+    color: #ffffff;
     font-family: 'Raleway', sans-serif;
     padding: 0px 10px;
 }
 #scoreText{
+    color: #ffffff;
     font-family: 'Raleway', sans-serif;
     padding: 0px 10px;
 }
