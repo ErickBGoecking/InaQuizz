@@ -4,12 +4,13 @@
     "\\public",
     "\\public\\create",
     "\\public\\create\\quiz-creator",
-    "\\public\\css",
-    "\\public\\player",
-    "\\public\\player\\game",
+    "\\public\\host",
+    "\\public\\host\\game",
+    "\\public\\js",
     "\\public\\z_Arquivos_Html_Menu_Horizontal",
     "\\server",
     "\\server\\utils"
   ],
+  "SelectedNode": "\\server\\server.js",
   "PreviewInSolutionExplorer": false
 }

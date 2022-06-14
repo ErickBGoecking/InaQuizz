@@ -1,15 +1,16 @@
+
 * {
     margin: auto;
   }
 
-  body {
+body {
     line-height: 1.5;
-    font-family: 'Smooch', cursive;
+    font-family: 'Raleway', sans-serif;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     color: #fff;
     background: #1a1a1a;
-  }
+}
   
   ul {
     list-style-type: none;
@@ -187,17 +188,17 @@
   .section p:last-child {
     margin-bottom: 0;
   }
-  .color3 {
-    background: #e74c3c;
+  .color1 {
+    background: #9b59b6;
   }
   .color2 {
     background: #e74c3c;
   }
+  .color3 {
+    background: #e74c3c;
+  }
   .color4 {
     background: #3498db;
-  }
-  .color1 {
-    background: #9b59b6;
   }
   .color5 {
     background: #1bc885;

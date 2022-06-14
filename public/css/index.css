@@ -1,26 +1,6 @@
-@keyframes bgcolor {
-    0% {
-        background-color: #45a3e5
-    }
-
-    30% {
-        background-color: #3979bf
-    }
-
-    60% {
-        background-color: #0f64eb
-    }
-
-    90% {
-        background-color: #34f
-    }
-
-    100% {
-        background-color: #34f
-    }
-}
 
 body {
+    background-color: #1bc885;
     background-repeat: no-repeat;
     background-position: center;
     background-position-x: center;
@@ -102,6 +82,6 @@ body {
     height: 100px;
     /* definimos a cor de fundo do box */
     background-color: #6495ed;
-    /* definimos o quão arredondado irá ficar nosso box */
+    /* definimos o quï¿½o arredondado irï¿½ ficar nosso box */
     border-radius: 10px 20px 30px 40px;
 }

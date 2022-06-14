@@ -95,7 +95,7 @@ function addQuestion(){
 
 //Called when user wants to exit quiz creator
 function cancelQuiz(){
-    if (confirm("Are you sure you want to exit? All work will be DELETED!")) {
+    if (confirm("Deseja realmente cancelar o Quiz?")) {
         window.location.href = "../";
     }
 }
@@ -106,7 +106,7 @@ socket.on('startGameFromCreator', function(data){
 
 function randomColor(){
     
-    var colors = ['#3979bf'];
+    var colors = ['#e74c3c'];
     var randomNum = Math.floor(Math.random() * 1);
     return colors[randomNum];
 }

@@ -1,10 +1,10 @@
 body {
-    background-image: url(../imagens/fundo-inicio.jpg);
+    background-color: #000000;
     color: white;
 }
 
 #answer1{
-    background-color: #4CAF50;
+    background-color: #1bc885;
     margin: auto;
     padding: 30px 20px;
     height: 50%;
@@ -12,7 +12,7 @@ body {
     font-size: 20px;
 }
 #answer2{
-    background-color: #f94a1e;
+    background-color: #e74c3c;
     margin: auto;
     padding: 30px 20px;
     height: 50%;
@@ -20,7 +20,7 @@ body {
     font-size: 20px;
 }
 #answer3{
-    background-color: #3399ff;
+    background-color: #3498db;
     margin: auto;
     padding: 30px 20px;
     height: 50%;
@@ -28,7 +28,7 @@ body {
     font-size: 20px;
 }
 #answer4{
-    background-color: #ff9933;
+    background-color: #dfb816;
     margin: auto;
     padding: 30px 20px;
     height: 50%;

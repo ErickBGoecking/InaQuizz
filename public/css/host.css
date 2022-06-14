@@ -1,27 +1,7 @@
-@keyframes bgcolor {
-    0% {
-        background-color: #45a3e5
-    }
-
-    30% {
-        background-color: #3979bf
-    }
-
-    60% {
-        background-color: #0f64eb
-    }
-
-    90% {
-        background-color: #34f
-    }
-
-    100% {
-        background-color: #34f
-    }
-}
 
 body {
-    background-image: url(https://www.sitegratisgratis.com.br/wp-content/uploads/2017/03/wallpaper-azul-papel-de-parede-azul-fundo-12.jpg);
+    font-family: 'Raleway', sans-serif;
+    background-color: #e74c3c;
     background-repeat: no-repeat;
     background-position: center;
     background-position-x: center;
@@ -33,14 +13,12 @@ body {
 }
 #title{
     color:white;
-    font-family: 'Raleway', sans-serif;
     font-size: 35px;
     text-align: center;
 }
 #gamePinText{
     text-align: center;
     color: white;
-    font-family: 'Tajawal', sans-serif;
     font-size: 50px;
 }
 #players{
@@ -53,19 +31,21 @@ body {
 }
 
 #start{
-    background-color: #3A3B3A;
-    border: none;
     color: white;
-    padding: 15px 100px;
     text-align: center;
-    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cancel{
+    color: white;
+    text-align: center;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 20px;
     cursor: pointer;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    font-size: 25px;
-    font-family: 'Raleway', sans-serif;
 }

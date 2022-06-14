@@ -3,13 +3,15 @@
     <head>
         <title>Creator | Inatal Quiz</title>
         <link rel = "stylesheet" href = "../../css/quizCreator.css">
+        <link rel = "stylesheet" href = "../../css/css/bootstrap.css">
+
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     </head>
     <body onload = "setBGColor()">
-        <h1 id = "title">Criar uma Prova</h1>
+        <h1 id = "titlesuperior">Criar um Quiz</h1>
         
         <div class="form-field">
-            <label id = "title">Titulo</label>
+            <label id = "titlesuperior">Titulo</label>
             <input id = "name" type = "text" name="name" autofocus/>
         </div>
         <br>
@@ -37,20 +39,22 @@
             </div>
         </div>
         <br>
-        <button id="title" onclick = "addQuestion()">Adicionar outra questao</button>
+        <button id="title" onclick = "addQuestion()" class="btn btn-danger btn-lg active">Adicionar outra questao</button>
+        
         
         <br>
         <br>
         
         <div class="form-field">
-            <button id="title" onclick = "updateDatabase()">Criar o Quiz</button>
+            <button id="title" onclick = "updateDatabase()" class="btn btn-danger btn-lg active">Criar o Quiz</button>
         </div>
         
         <br>
         
-        <button id="title" onclick = 'cancelQuiz()'>Cancelar o quiz e retornar a selecao</button>
+        <button id="title" onclick = 'cancelQuiz()' class="btn btn-danger btn-lg active">Cancelar o quiz e retornar a selecao</button>
         
         <script src = "../../socket.io/socket.io.js"></script>
         <script src = "../../js/quizCreator.js"></script>
+        
     </body>
 </html>
